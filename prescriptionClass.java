@@ -53,7 +53,10 @@ public class prescriptionClass
 		vaccineKey = key;
 	}
 	
-	//public void sendPrescriptionToPharmacy()
+	public void sendPrescriptionToPharmacy(){
+	 System.out.println("Prescription sent!");
+	
+	}
 	
 	
 	
