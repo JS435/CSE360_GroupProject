@@ -162,24 +162,6 @@ public class patientClass
 		checkupArray[num] = new checkupClass(date, name, dob, height, weight, temp, bp, allergy, other);
 	}
 	
-	public void addSentMesaage(Boolean MessageSent)
-	{
-		MessageSent = 0
-		if MessageSent = 1
-		{	
-			System.out.println("Message Sent Successfully");
-		}
-		else
-		{
-			System.out.println("Message Not Sent Please try again");
-		}
-	}
-	public void addRecievedMessage(Boolean MessageReceived)
-	{
-		MessageReceived = 0
-		if MessageReceived = 1
-		{	
-			System.out.println("Message Received");
-		}
-	}
+	//public void addSentMesaage()
+	//public void addRecievedMessage()
 }

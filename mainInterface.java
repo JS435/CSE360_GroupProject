@@ -1,22 +1,15 @@
-//import javafx.application.Application;
-//import javafx.event.ActionEvent;
-//import javafx.event.EventHandler;
-//import javafx.geometry.Pos;
-//import javafx.scene.Scene;
-//import javafx.scene.control.Button;
-//import javafx.scene.control.Label;
-//import javafx.scene.layout.BorderPane;
-//import javafx.scene.layout.GridPane;
-//import javafx.stage.Stage;
-
+//imported class libraries
 import java.util.Scanner;
 
-public class mainInterface //extends Application
+//main interface class
+public class mainInterface
 {
 	public static void main(String[] args)
 	{
+		//scanner variables used to take inout from user/keyboard
 		Scanner scan = new Scanner(System.in);
 		
+		//patient array with list of patients within healthcare system
 		patientClass[] listOfPatients = new patientClass[3];
 		listOfPatients[0] = new patientClass("Jaden", "Swensen", "June 2nd, 2001", "123-456-7890",
 				"Jswensen@asu.edu", "ASU", "ASU pharmacy", "ASU Insurance", 2525);
@@ -28,18 +21,19 @@ public class mainInterface //extends Application
 				"Ronjon@yahoo.com", "789 Far Lane", "Walgreens", "Progressive", 5678);
 		
 		
-		//Patient: Jaden Swensen
+		//Patient: Jaden Swensen Information
 		listOfPatients[0].addPatientPrescription("Drug", 10, 500, false, 0);
 		listOfPatients[0].addPatientPrescription("Drug 2", 5, 200, false, 1);
 		listOfPatients[0].addPatientPrescription("Vaccine", 1, 100, true, 2);
 		listOfPatients[0].addPatientPhysical("Jaden Swensen", "Patient looks healthy and all tests came back good. ", 0);
 		listOfPatients[0].addPatientCheckup("10/31", "Jaden Swensen", "June 2nd, 2001", "5' 10", 140, 98.2, "90mm Hg", "No allegeries", "N/A", 0);
 		
-		//Patient: James Smith
+		//Patient: James Smith Information
 		listOfPatients[1].addPatientPrescription("Drug 3", 3, 250, false, 0);
 		listOfPatients[1].addPatientPhysical("James Smith", "Blood pressure was a bit higher than normal. Weight is slightly above healthy levels but, besides that everything looks good.", 0);
 		
-		//Patient: Ron Jon
+		//Patient: Ron Jon Information
+		//No information for patient Ron Jon
 		
 		//Array of Doctors and Nurses
 		doctorClass[] listOfDocs = new doctorClass[10];
@@ -275,65 +269,5 @@ public class mainInterface //extends Application
 				}
 			}
 		}
-		
-		//launch(args);
 	}
-	
-	/*
-	@Override
-    public void start(Stage primaryStage) 
-	{
-        primaryStage.setTitle("Healthcare System");
-        
-        Label title = new Label();
-        title.setText("Welcome! Please select one of the options below.");
-        title.setStyle("-fx-font: 16 arial;");
-        
-        Button staffButton = new Button();
-        staffButton.setText("I Am A Member Of Staff");
-        staffButton.setOnAction(new EventHandler<ActionEvent>() 
-        {
- 
-            @Override
-            public void handle(ActionEvent event) 
-            {
-                System.out.println("Staff Button Clicked");
-            }
-        });
-        
-        Button patientButton = new Button();
-        patientButton.setText("I Am A Patient/Vistor");
-        patientButton.setOnAction(new EventHandler<ActionEvent>() 
-        {
- 
-            @Override
-            public void handle(ActionEvent event) 
-            {
-                System.out.println("Patient Button Clicked");
-            }
-        });
-        
-        BorderPane border = new BorderPane();
-        
-        GridPane grid = new GridPane();
-        grid.setAlignment(Pos.CENTER);
-        grid.setHgap(10);
-        grid.setVgap(10);
-        
-        GridPane grid2 = new GridPane();
-        grid2.setAlignment(Pos.CENTER);
-        grid2.setHgap(1);
-        grid2.setVgap(1);
-       
-        border.setTop(grid);
-        grid.add(title, 0, 1);
-        
-        border.setBottom(grid2);
-        grid2.add(staffButton, 0, 0);
-        grid2.add(patientButton, 1, 0);
-        
-        primaryStage.setScene(new Scene(border, 400, 250));
-        primaryStage.show();
-	}
-	*/
 }
