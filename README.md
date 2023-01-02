@@ -1,4 +1,4 @@
-# CSE360 Group Project
+# CSE360: Intro to Software Engineering - Group Project
 CSE360 Intro to Software Engineering group project
 (Following Documentation Provided by ASU)
 
