@@ -1,5 +1,6 @@
-# CSE360_GroupProject
+# CSE360 Group Project
 CSE360 Intro to Software Engineering group project
+(Documentation Provided by ASU)
 
 ## Project Objectives: 
 Course project will reinforce important concepts such as requirement 
