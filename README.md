@@ -26,7 +26,7 @@ accessible through web as well as using a mobile app. However, for CSE 360 class
 will be developing a GUI based desktop application using javaFX (that you have learned in CSE 
 205).  The following section explains the system operation and expected functionality 
 
-System Operation:  
+## System Operation:  
 When a patient come to visit the doctor, first, meet and greet is the office staff nurse. Nurse will 
 take vitals such as weight, height, body temperature, and blood pressure if the patient is over 12 
 and  inter  into  the  system  associated  with  the  visit.  Then  the  patient  will  be  escorted  into  the 
