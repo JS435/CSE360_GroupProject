@@ -1,14 +1,14 @@
 # CSE360_GroupProject
 CSE360 Intro to Software Engineering group project
 
-Project Objectives: 
+## Project Objectives: 
 Course project will reinforce important concepts such as requirement 
 analysis,  project  planning,  design,  development,  testing,  deployment,  and  teamwork  that  we 
 learn in the class while gaining important experience in developing a new software product. You 
 are expected to participate and complete the project in professional manner. You will have ample 
 of time to accomplish the project successfully. 
  
-Overview:  
+## Overview:  
 Students  will  be  divided  into  groups,  with  about  5  students  per  group.  Each  group 
 needs  to  elect  a  team  leader.  The  team  leader  could  be  permanent  for  the  whole  project.  Team 
 members  may  also  decide  to  change  their  leader  during  different  phases  of  project.  But  the 
@@ -17,8 +17,7 @@ be  determined  by  the  instructor,  though  initially  students  may  suggest 
 grouped. The project work must be distributed among team members as equally as possible and 
 will be considered for project evaluation. 
 
-Project Idea: Office Automation System for Pediatric Doctor’s Office 
-
+## Project Idea: Office Automation System for Pediatric Doctor’s Office 
 This  project  will  involve  system  analysis,  design,  implementation,  and  testing  of  an  Office 
 Automation  System  for  Pediatric  Doctor’s  Office.  This  system  will  be  used  by  doctors,  nurses, 
 and  patients  (or  parent/guardian).  Main  objective  of  this  software  system  is  to  reduce  the 
